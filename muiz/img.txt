@@ -1,0 +1,14 @@
+img1: https://smartiqo.com/wp-content/uploads/2020/12/home3.jpg
+img2: https://smartiqo.com/wp-content/uploads/2020/12/smart-home.jpg
+img3: https://smartiqo.com/wp-content/uploads/2020/12/about-img2-2048x1558.jpg
+img4: https://smartiqo.com/wp-content/uploads/2020/12/survellience-PNG.png
+switch-control: https://smartiqo.com/wp-content/uploads/2020/12/Switch-PNG.png
+smart-lightings: https://smartiqo.com/wp-content/uploads/2020/12/lights-PNG.png
+smart-sensors: https://smartiqo.com/wp-content/uploads/2020/12/sensors-PNG.png
+voice: https://smartiqo.com/wp-content/uploads/2020/12/google-home1.jpg
+mobile: https://smartiqo.com/wp-content/uploads/2020/12/custom.jpg
+wifi: https://smartiqo.com/wp-content/uploads/2020/10/Wifi-white-50x50.png
+security: https://smartiqo.com/wp-content/uploads/2020/11/lock-icon-50x50.png
+voice: https://smartiqo.com/wp-content/uploads/2020/12/voice-assis-50x50.png
+energy efficient: https://smartiqo.com/wp-content/uploads/2020/11/powersave-50x50.png
+schedule power on off: https://smartiqo.com/wp-content/uploads/2020/11/onoff-50x50.png

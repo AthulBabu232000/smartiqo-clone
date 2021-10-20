@@ -1,0 +1,46 @@
+
+html {
+  overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-y: auto;
+  }
+  
+
+.parallax-wrapper {
+  transform-style: preserve-3d;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+.parallax-wrapper::before {
+  position: absolute;
+  content: "";
+  background-image: url(https://smartiqo.com/wp-content/uploads/2020/12/12-1.jpg?id=103461);
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  transform: translateZ(-1px);
+  background-size:cover;
+  background-attachment:fixed;
+  z-index: -1;
+}
+.regular-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: orange;
+  padding-top: 20px;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+  background-size:cover;
+  background-image: url(https://smartiqo.com/wp-content/uploads/2020/12/12-1.jpg?id=103461);
+
+}
