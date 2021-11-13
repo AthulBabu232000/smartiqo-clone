@@ -461,3 +461,74 @@ justify-content:space-around;
   display:block;
   margin:0 auto;
 }
+
+
+
+@media screen and (max-width:600px){
+
+/* upgrading section */
+
+.col-2-upgrading{
+  padding:20px;
+}
+.heading-one-upgrading{
+  font-weight:300 !important;
+}
+
+/* bringing-happiness */
+
+#happiness{
+  display:grid;
+}
+
+#happiness .col-2-upgrading{
+  order:2
+}
+#happiness .happiness-img{
+  order:1;
+}
+
+/* safety security */
+
+#security .first-card, #security .second-card, #smart-lighting .first-card, #smart-lighting .second-card{
+
+  display:grid !important;
+  grid-auto-flow:row !important;
+  height:90vh;
+  
+}
+
+
+#security .first-card .card-body, #security .second-card .card-body, #smart-lighting .first-card .card-body, #smart-lighting .second-card .card-body{
+  width:100vw;
+}
+
+#security .first-card .img-wrapper, #security .second-card .img-wrapper, #smart-lighting .first-card .img-wrapper, #smart-lighting .second-card .img-wrapper{
+  text-align:center;
+  height:300px;
+  min-width:300px;
+ position:absolute;
+ bottom:10px;
+}
+
+#security .first-card .img-wrapper img{
+  height:100%;
+  width:100%;
+}
+/* footer section */
+
+  .footer{
+    padding:10px;
+    text-align:center;
+  }
+
+  .footer-header .heading-font{
+    display:none;
+  }
+
+  .footer-body .heading-font{
+    text-align:center !important;
+  }
+
+  
+}
